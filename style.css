@@ -36,7 +36,7 @@ h1 {
 
 /* 7 Write a selector to target all the <li> into the first ordered-list in the sidebar ( Archives )*/
 
-aside .p-4:nth-child(2) ol li {
+aside .p-4:nth-of-type(2) ol li {
     background-color: greenyellow;
 } 
 
@@ -78,10 +78,3 @@ footer + a{
 }
 
 
-.lead > a {
-    background-color: violet;
-}
-
-.stretched-link {
-    background-color:  violet;;
-}
