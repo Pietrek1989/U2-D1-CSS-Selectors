@@ -1,0 +1,87 @@
+/* 1 */
+
+h1 {
+    background-color: green;
+}
+
+/* 2 */
+
+.nav span {
+    background-color: aqua;
+}
+
+/* 3 */
+.jumbotron .col-md-6 p a {
+    color: gold
+}
+
+/* 4 */
+
+.container .blog-post:first-of-type {
+    background-color: lightblue;
+}
+
+/* 5 Write a selector to target the first blogpost <hr> and turn it red*/
+
+.container .col-md-8 .blog-post hr:first-of-type {
+    background-color: red;
+}
+
+
+/* 6 Write a selector to target the “even” links in the navbar */
+
+.nav span:nth-child(2n + 0) {
+    background-color: goldenrod
+}
+
+/* 7 Write a selector to target all the <li> into the first ordered-list in the sidebar ( Archives )*/
+
+aside .p-4:nth-child(2) ol li {
+    background-color: greenyellow;
+} 
+
+/* 8  Write a selector to target the second blog-post author*/
+
+
+.blog-post:nth-of-type(2) p:first-of-type a {
+    background-color: black;
+}
+
+
+
+
+/* 9  Write a selector to target the second <li> in the third blog-post unordered-list*/
+
+.blog-post:nth-of-type(3) ul:first-of-type li:nth-of-type(2) {
+    background-color: grey;
+}
+
+/* 10 Write a selector to target the “back to top” link you can find at the bottom-right corner*/
+
+footer + a{
+    background-color: blanchedalmond;
+}
+
+/* 11 Write a selector to target the “Newer” button at the bottom*/
+
+.blog-pagination > .btn ~ .btn {
+    background-color: seagreen;
+    color: white;
+}
+
+
+/* 12 Write a selector to target the footer’s second link*/
+
+.blog-footer p  a:last-of-type {
+    background-color: teal;
+    color: white;
+}
+
+
+.lead > a {
+    background-color: violet;
+}
+
+.stretched-link {
+    background-color:  violet;;
+}
